@@ -1,6 +1,6 @@
 {
   "name": "set-git-description",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "write npm package description to git",
   "author": "Maik Ellerbrock",
   "main": "dist/index.js",
@@ -29,7 +29,7 @@
     "todo:postcoverage": "cross-env NODE_ENV=test babel-istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "coverage:ci": "cross-env NODE_ENV=test npm run coverage && codecov",
     "debug": "nodemon src/index.js --exec babel-node --debug",
-    "precommit": "npm run clean && npm run build && npm run lint:fix && npm test && npm run coverage && npm run lint:travis && npm run lint:markdown",
+    "precommit": "npm run clean && npm run build && npm run lint:fix && npm test && npm run coverage && npm run lint:travis && npm run lint:markdown && npm run lint:markdown-links",
     "commit": "git add --all && git status && git-cz",
     "postcommit": "npm run lint:git && npm run changelog",
     "changelog": "standard-changelog --preset angular-emoji --outfile changelog.md",
@@ -58,7 +58,8 @@
     "todo:pretest": "npm run clean:coverage && npm run clean:reports",
     "todo:test": "cross-env NODE_ENV=test mocha -c -S -R spec --compilers js:babel-register --check-leaks",
     "todo:posttest": "cross-env NODE_ENV=test mocha -S -R mochawesome --compilers js:babel-register --reporter-options reportDir=reports --check-leaks",
-    "todo:test:watch": "cross-env NODE_ENV=test npm test -- -w"
+    "todo:test:watch": "cross-env NODE_ENV=test npm test -- -w",
+    "online": "git push --follow-tags origin master; npm publish"
   },
   "files": [
     "dist"
