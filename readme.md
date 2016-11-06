@@ -6,7 +6,7 @@ _set git description from npm description_
 
 ## Project Status
 
-[![Build Status](https://travis-ci.org/ellerbrock/set-git-description.svg?branch=master)](https://travis-ci.org/ellerbrock/node-developer-boilerplate)
+[![Build Status](https://travis-ci.org/ellerbrock/set-git-description.svg?branch=master)](https://travis-ci.org/ellerbrock/set-git-description)
 
 ### install with npm
 
