@@ -128,7 +128,7 @@
   },
   "dependencies": {
     "colors": "1.1.2",
-    "error-log-exit": "0.0.1",
+    "error-log-exit": "0.0.2",
     "fs-promise": "0.5.0",
     "get-app-dir": "0.1.1"
   }
