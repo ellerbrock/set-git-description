@@ -1,6 +1,6 @@
 {
   "name": "set-git-description",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "write npm package description to git",
   "author": "Maik Ellerbrock",
   "main": "dist/index.js",
