@@ -29,7 +29,7 @@ require('set-git-description')
 #### ES6
 
 ```javascript
-import '../src/index'
+import 'set-git-description'
 
 // thats all :)
 ```
