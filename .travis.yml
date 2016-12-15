@@ -2,7 +2,6 @@ sudo: false
 language: node_js
 node_js:
 - '6'
-- '5'
 branches:
   only:
   - master
@@ -22,5 +21,4 @@ install:
 before_script:
 - npm run clean
 script:
-- npm run lint
 - npm test
