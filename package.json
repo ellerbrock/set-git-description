@@ -89,7 +89,7 @@
     "eslint-plugin-standard": "2.1.0",
     "greenkeeper-postpublish": "1.1.0",
     "markdown-link-check": "~3.0.0",
-    "markdownlint": "0.6.3",
+    "markdownlint": "0.6.4",
     "nodemon": "^1.11.0",
     "npm-check-updates": "2.12.0",
     "shx": "^0.2.1",
