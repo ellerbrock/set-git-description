@@ -91,7 +91,7 @@
     "markdown-link-check": "~3.0.0",
     "markdownlint": "0.6.4",
     "nodemon": "^1.11.0",
-    "npm-check-updates": "2.14.1",
+    "npm-check-updates": "2.14.2",
     "shx": "^0.2.1",
     "standard-changelog": "1.0.19",
     "standard-version": "^4.0.0",
