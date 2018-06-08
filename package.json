@@ -92,7 +92,7 @@
     "markdownlint": "0.8.1",
     "nodemon": "^1.11.0",
     "npm-check-updates": "2.14.2",
-    "shx": "^0.2.1",
+    "shx": "^0.3.0",
     "standard-changelog": "1.0.19",
     "standard-version": "^4.0.0",
     "travis-lint": "1.0.0"
