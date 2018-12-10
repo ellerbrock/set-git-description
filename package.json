@@ -90,7 +90,7 @@
     "greenkeeper-postpublish": "1.1.0",
     "markdown-link-check": "~3.0.0",
     "markdownlint": "0.10.0",
-    "nodemon": "^1.11.0",
+    "nodemon": "^1.18.8",
     "npm-check-updates": "2.14.2",
     "shx": "^0.3.0",
     "standard-changelog": "1.0.19",
