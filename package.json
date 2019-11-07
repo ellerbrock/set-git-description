@@ -94,7 +94,7 @@
     "npm-check-updates": "2.14.2",
     "shx": "^0.3.0",
     "standard-changelog": "1.0.19",
-    "standard-version": "^5.0.0",
+    "standard-version": "^7.0.1",
     "travis-lint": "1.0.0"
   },
   "dependencies": {
