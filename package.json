@@ -93,7 +93,7 @@
     "nodemon": "^1.11.0",
     "npm-check-updates": "2.14.2",
     "shx": "^0.3.0",
-    "standard-changelog": "1.0.19",
+    "standard-changelog": "2.0.21",
     "standard-version": "^5.0.0",
     "travis-lint": "1.0.0"
   },
